@@ -1,0 +1,70 @@
+﻿xy_ecpoint.obj : error LNK2019: 无法解析的外部符号 CRYPTO_malloc，函数 xy_ecpoint_free 中引用了该符号
+ec_param.obj : error LNK2001: 无法解析的外部符号 CRYPTO_malloc
+part4.obj : error LNK2001: 无法解析的外部符号 CRYPTO_malloc
+sm2_ec_key.obj : error LNK2001: 无法解析的外部符号 CRYPTO_malloc
+util.obj : error LNK2001: 无法解析的外部符号 CRYPTO_malloc
+util.obj : error LNK2001: 无法解析的外部符号 CRYPTO_free
+xy_ecpoint.obj : error LNK2001: 无法解析的外部符号 CRYPTO_free
+ec_param.obj : error LNK2001: 无法解析的外部符号 CRYPTO_free
+part3.obj : error LNK2001: 无法解析的外部符号 CRYPTO_free
+part4.obj : error LNK2001: 无法解析的外部符号 CRYPTO_free
+sm2_ec_key.obj : error LNK2001: 无法解析的外部符号 CRYPTO_free
+ec_param.obj : error LNK2019: 无法解析的外部符号 BN_CTX_new，函数 ec_param_new 中引用了该符号
+ec_param.obj : error LNK2019: 无法解析的外部符号 BN_CTX_free，函数 ec_param_free 中引用了该符号
+sm2_ec_key.obj : error LNK2001: 无法解析的外部符号 BN_new
+util.obj : error LNK2001: 无法解析的外部符号 BN_new
+xy_ecpoint.obj : error LNK2001: 无法解析的外部符号 BN_new
+ec_param.obj : error LNK2001: 无法解析的外部符号 BN_new
+part2.obj : error LNK2001: 无法解析的外部符号 BN_new
+part3.obj : error LNK2001: 无法解析的外部符号 BN_new
+part4.obj : error LNK2001: 无法解析的外部符号 BN_new
+sm2_ec_key.obj : error LNK2001: 无法解析的外部符号 BN_free
+util.obj : error LNK2001: 无法解析的外部符号 BN_free
+xy_ecpoint.obj : error LNK2001: 无法解析的外部符号 BN_free
+ec_param.obj : error LNK2001: 无法解析的外部符号 BN_free
+part2.obj : error LNK2001: 无法解析的外部符号 BN_free
+part3.obj : error LNK2001: 无法解析的外部符号 BN_free
+part4.obj : error LNK2001: 无法解析的外部符号 BN_free
+ec_param.obj : error LNK2019: 无法解析的外部符号 BN_hex2bn，函数 ec_param_init 中引用了该符号
+part3.obj : error LNK2001: 无法解析的外部符号 BN_hex2bn
+sm2_ec_key.obj : error LNK2001: 无法解析的外部符号 BN_hex2bn
+util.obj : error LNK2001: 无法解析的外部符号 BN_hex2bn
+ec_param.obj : error LNK2019: 无法解析的外部符号 EC_GROUP_free，函数 ec_param_free 中引用了该符号
+ec_param.obj : error LNK2019: 无法解析的外部符号 EC_GROUP_new_curve_GFp，函数 ec_param_init 中引用了该符号
+ec_param.obj : error LNK2019: 无法解析的外部符号 EC_GROUP_new_curve_GF2m，函数 ec_param_init 中引用了该符号
+ec_param.obj : error LNK2019: 无法解析的外部符号 EC_POINT_set_affine_coordinates_GFp，函数 ec_param_init 中引用了该符号
+ec_param.obj : error LNK2019: 无法解析的外部符号 EC_POINT_get_affine_coordinates_GFp，函数 ec_param_init 中引用了该符号
+ec_param.obj : error LNK2019: 无法解析的外部符号 EC_POINT_set_affine_coordinates_GF2m，函数 ec_param_init 中引用了该符号
+ec_param.obj : error LNK2019: 无法解析的外部符号 EC_POINT_get_affine_coordinates_GF2m，函数 ec_param_init 中引用了该符号
+part1.obj : error LNK2019: 无法解析的外部符号 EC_POINT_is_on_curve，函数 test_part1 中引用了该符号
+part2.obj : error LNK2019: 无法解析的外部符号 BN_zero_ex，函数 sm2_sign 中引用了该符号
+part2.obj : error LNK2019: 无法解析的外部符号 BN_num_bits，函数 sm2_sign 中引用了该符号
+part3.obj : error LNK2001: 无法解析的外部符号 BN_num_bits
+part4.obj : error LNK2001: 无法解析的外部符号 BN_num_bits
+util.obj : error LNK2001: 无法解析的外部符号 BN_num_bits
+part2.obj : error LNK2019: 无法解析的外部符号 BN_bin2bn，函数 sm2_sign 中引用了该符号
+part3.obj : error LNK2001: 无法解析的外部符号 BN_bin2bn
+part4.obj : error LNK2001: 无法解析的外部符号 BN_bin2bn
+part2.obj : error LNK2019: 无法解析的外部符号 BN_bn2bin，函数 sm2_sign 中引用了该符号
+part3.obj : error LNK2001: 无法解析的外部符号 BN_bn2bin
+part4.obj : error LNK2001: 无法解析的外部符号 BN_bn2bin
+util.obj : error LNK2001: 无法解析的外部符号 BN_bn2bin
+part2.obj : error LNK2019: 无法解析的外部符号 BN_sub，函数 sm2_sign 中引用了该符号
+part2.obj : error LNK2019: 无法解析的外部符号 BN_add，函数 sm2_sign 中引用了该符号
+part3.obj : error LNK2001: 无法解析的外部符号 BN_add
+part2.obj : error LNK2019: 无法解析的外部符号 BN_mul，函数 sm2_sign 中引用了该符号
+part3.obj : error LNK2001: 无法解析的外部符号 BN_mul
+part2.obj : error LNK2019: 无法解析的外部符号 BN_mod_add，函数 sm2_sign 中引用了该符号
+part2.obj : error LNK2019: 无法解析的外部符号 BN_mod_mul，函数 sm2_sign 中引用了该符号
+part2.obj : error LNK2019: 无法解析的外部符号 BN_set_word，函数 sm2_sign 中引用了该符号
+part3.obj : error LNK2001: 无法解析的外部符号 BN_set_word
+part2.obj : error LNK2019: 无法解析的外部符号 BN_mod_inverse，函数 sm2_sign 中引用了该符号
+part3.obj : error LNK2019: 无法解析的外部符号 BN_div，函数 dh_step2 中引用了该符号
+util.obj : error LNK2019: 无法解析的外部符号 BN_bn2hex，函数 show_bignum 中引用了该符号
+xy_ecpoint.obj : error LNK2019: 无法解析的外部符号 EC_POINT_new，函数 xy_ecpoint_new 中引用了该符号
+xy_ecpoint.obj : error LNK2019: 无法解析的外部符号 EC_POINT_free，函数 xy_ecpoint_free 中引用了该符号
+xy_ecpoint.obj : error LNK2019: 无法解析的外部符号 EC_POINT_add，函数 xy_ecpoint_add_xy_ecpoint 中引用了该符号
+xy_ecpoint.obj : error LNK2019: 无法解析的外部符号 EC_POINT_mul，函数 xy_ecpoint_mul_bignum 中引用了该符号
+D:\SMx-master\SM2\Windows\SM2\lib\lib32\libeay32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\SMx-master\SM2\Windows\SM2\lib\lib32\ssleay32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\SMx-master\SM2\Windows\x64\Debug\SM2.exe : fatal error LNK1120: 32 个无法解析的外部命令
