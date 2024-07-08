@@ -21,3 +21,7 @@
 - CLEFIA
     - Python_implementation
     CLEFIA python implementation
+
+- PHOTON
+    - Python_implementation
+    PHOTON python implementation
