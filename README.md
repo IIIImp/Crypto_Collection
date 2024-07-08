@@ -13,3 +13,11 @@
 - Kyber
     - Python_implementation
     Kyber python implementation
+
+- NTRU
+    - Python_implementation
+    NTRU python implementation
+
+- CLEFIA
+    - Python_implementation
+    CLEFIA python implementation
